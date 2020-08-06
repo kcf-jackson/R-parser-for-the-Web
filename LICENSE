@@ -1,0 +1,25 @@
+// This project is developed based on `gram.y` from GNU R 3.6.3; 
+// it is covered by the "GPL-2.0-or-later" license.
+
+An R parser for the Web
+Copyright (C) 2020  Chun Fung Kwok
+
+R : A Computer Language for Statistical Data Analysis
+Copyright (C) 1995, 1996, 1997  Robert Gentleman and Ross Ihaka
+Copyright (C) 1997--2020  The R Core Team
+Copyright (C) 2009--2011  Romain Francois
+ 
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, a copy is available at
+https://www.R-project.org/Licenses/
+ 

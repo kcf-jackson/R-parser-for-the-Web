@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="./ace.min.js"></script>
+        <script src="../../bin/parse_exprs.js"></script>
+        <style>
+            .ace_editor {width: 100%; height: 600px; resize: both;}
+            .large-box {display: flow-root}
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <h1> R parser on the Web </h1>
+            <div class='row justify-content-center large-box'>
+                <div id="editor">test_fun <- function(x, y) {
+    x + y + 1
+}
+                </div>
+                <button class='btn btn-secondary' onclick="callParser()">Parse</button>
+            </div>
+            <div class='row justify-content-center large-box'>
+                <div id='target'></div>
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            let editor = ace.edit("editor");
+            editor.setTheme("ace/theme/monokai");
+            editor.session.setMode("ace/mode/r");
+            editor.setFontSize(20);
+            editor.commands.addCommand({
+                name: "replace",
+                bindKey: {win: "Ctrl-Enter", mac: "Command-Enter"},
+                exec: function(editor) { callParser(); }
+            });
+
+            let target = ace.edit("target");
+            target.session.setMode("ace/mode/json");
+            target.setFontSize(20);
+
+            function callParser() {
+                let input = editor.getValue();
+                let result = parse_exprs(input);
+
+                console.log("%c" + "Input:", "color:DodgerBlue");
+                console.log(input);
+                console.log("%c" + "[Debug] Input in JSON:", "color:Green");
+                console.log(JSON.stringify(input));
+                console.log(result);
+                target.setValue(JSON.stringify(result, null, 2));  // Pretty print
+                return result;
+            }
+        </script>
+    </body>
+</html>

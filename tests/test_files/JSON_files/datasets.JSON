@@ -1,0 +1,1 @@
+[[],["options",{"useFancyQuotes":"FALSE"}],["<-","env",["as.environment","\"package:datasets\""]],["<-","d",["ls","env"]],["for","f","d",["{",["cat","\"\\n** structure of dataset \"","f","\"\\n\"",{"sep":"\"\""}],["str",["get","f",{"envir":"env"},{"inherits":"FALSE"}]]]]]

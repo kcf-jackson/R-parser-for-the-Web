@@ -1,0 +1,1 @@
+[[],["<-","all.names",["function",[{"expr":"","functions":"TRUE","max.names":["-","1L"],"unique":"FALSE"}],[".Internal",["all.names","expr","functions","max.names","unique"]]]],["<-","all.vars",["function",[{"expr":"","functions":"FALSE","max.names":["-","1L"],"unique":"TRUE"}],[".Internal",["all.names","expr","functions","max.names","unique"]]]]]

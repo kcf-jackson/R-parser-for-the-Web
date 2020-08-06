@@ -1,0 +1,1 @@
+[[],["<-","zapsmall",["function",[{"x":"","digits":["getOption","\"digits\""]}],["{",["if",["==",["length","digits"],"0L"],["stop","\"invalid 'digits'\""]],["if",["all",["<-","ina",["is.na","x"]]],["return","x"]],["<-","mx",["max",["abs",["[","x",["!","ina"]]]]],["round","x",{"digits":["if",[">","mx","0"],["max","0L",["-","digits",["as.numeric",["log10","mx"]]]],"digits"]}]]]]]

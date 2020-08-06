@@ -1,0 +1,15 @@
+{
+  "name": "r_parser",
+  "version": "1.0.0",
+  "description": "A Jison-based R parser on the web",
+  "author": "Chun Fung Kwok",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "lex": "^1.7.9"
+  },
+  "devDependencies": {
+    "jison": "^0.4.18",
+    "fs": "^0.0.1-security",
+    "browserify": "^16.5.1"
+  }
+}

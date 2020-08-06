@@ -1,0 +1,1 @@
+[[],["<-","options",["function",[{"...":""}],[".Internal",["options","..."]]]],["<-","getOption",["function",[{"x":"","default":"NULL"}],["{",["if",["missing","default"],[".Internal",["getOption","x"]],["{",["<-","ans",[".Internal",["getOption","x"]]],["if",["is.null","ans"],"default","ans"]]]]]]]

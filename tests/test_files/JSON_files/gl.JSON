@@ -1,0 +1,1 @@
+[[],["<-","gl",["function",[{"n":"","k":"","length":["*","n","k"],"labels":["seq_len","n"],"ordered":"FALSE"}],["{",["<-","f",["rep_len",["rep.int",["seq_len","n"],["rep.int","k","n"]],"length"]],["<-",["levels","f"],["as.character","labels"]],["<-",["class","f"],["c",["if","ordered","\"ordered\""],"\"factor\""]],"f"]]]]

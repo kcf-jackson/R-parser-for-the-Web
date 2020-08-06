@@ -1,0 +1,1 @@
+[[],["<-","loadRconsole",["function",[{"file":["choose.files",["file.path",["Sys.getenv","\"R_USER\""],"\"Rconsole\""]]}],["invisible",[".Call","C_loadRconsole","file"]]]]]

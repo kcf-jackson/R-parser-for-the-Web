@@ -1,0 +1,1 @@
+[["<-","x",[["::","tools","Rd_db"],"\"base\""]],["system.time",["<-","y",["lapply","x",["function",[{"e":""}],["tryCatch",[["::","tools","Rd2HTML"],"e",{"out":["nullfile",{}]}],{"error":"identity"}]]]]],["stopifnot",["!",["vapply","y","inherits","NA","\"error\""]]]]

@@ -1,0 +1,1 @@
+[[],["if",["==",["$","R.version","status"],"\"Under development (unstable)\""],["{",["<-","res","\"R-devel\""]],["{",["<-","res",["paste","\"R-\"",["$","R.version","major"],"\".\"",["$","R.version","minor"],["tolower",["$","R.version","status"]],{"sep":"\"\""}]]]],["cat","res"]]

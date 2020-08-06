@@ -1,0 +1,1 @@
+[[],["<-","unname",["function",[{"obj":"","force":"FALSE"}],["{",["if",["!",["is.null",["names","obj"]]],["<-",["names","obj"],"NULL"]],["if",["&&",["!",["is.null",["dimnames","obj"]]],["(",["||","force",["!",["is.data.frame","obj"]]]]],["<-",["dimnames","obj"],"NULL"]],"obj"]]]]

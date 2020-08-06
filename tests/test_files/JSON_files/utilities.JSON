@@ -1,0 +1,1 @@
+[[],["<-","mat.or.vec",["function",[{"nr":"","nc":""}],["if",["==","nc","1L"],["numeric","nr"],["matrix","0","nr","nc"]]]],["<-","is.R",["function",[],["&&",["&&",["exists","\"version\""],["!",["is.null",["<-","vl",["$","version","language"]]]]],["==","vl","\"R\""]]]]]

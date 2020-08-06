@@ -1,0 +1,1 @@
+[[],["<-","substituteDirect",["function",[{"object":"","frame":["parent.frame",{}],"cleanFunction":"TRUE"}],["{",["<-","value",[".Call","C_do_substitute_direct","object","frame"]],["if",["&&","cleanFunction",["is.function","value"]],["{",["<-",["environment","value"],".GlobalEnv"]]],"value"]]]]

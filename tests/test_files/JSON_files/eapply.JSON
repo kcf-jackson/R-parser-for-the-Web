@@ -1,0 +1,1 @@
+[[],["<-","eapply",["function",[{"env":"","FUN":"","...":"","all.names":"FALSE","USE.NAMES":"TRUE"}],["{",["<-","FUN",["match.fun","FUN"]],[".Internal",["eapply","env","FUN","all.names","USE.NAMES"]]]]]]

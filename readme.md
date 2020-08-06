@@ -38,10 +38,9 @@ console.log(result)
 This example can be found at `./examples/nodejs_usage.js`.
 
 
+### Online editor
 
-<!-- ### Online editor
-
-[Try it out here](https://gitcdn.link/repo/kcf-jackson/R-parser-on-the-Web/master/examples/editor/index.html?token=ADBQ4RATBWDM3BPZL72H3XC6WEXQ6) and file an issue on github if there are errors. -->
+Try it out [here](https://gitcdn.link/repo/kcf-jackson/R-parser-for-the-Web/master/examples/editor/index.html) or [backup here](https://htmlpreview.github.io/?https://github.com/kcf-jackson/R-parser-for-the-Web/blob/master/examples/editor/index.html), and file an [issue](https://github.com/kcf-jackson/R-parser-for-the-Web/issues) if there are errors.
 
 ---
 
